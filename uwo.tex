@@ -2,6 +2,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
+% Remove this
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
 % Defining a color
 \usepackage{xcolor}
 \definecolor{uwo-purple}{HTML}{4F2683}
@@ -9,6 +13,7 @@
 
 \usetheme{CambridgeUS}
 
+% Customizing the template
 \setbeamercolor{frametitle}{fg=uwo-purple}
 \setbeamercolor{title}{fg=uwo-purple}
 \setbeamercolor{palette primary}{fg=black, bg=uwo-purple!30!white}
@@ -18,8 +23,8 @@
 
 \begin{document}
 	\author{Amir Haghighati}
-	\title{Migrating a D3.js Project to Version 5}
-	\subtitle{+ Project Demo}
+	\title{The Big Brown Fox Jumps}
+	\subtitle{Over The Lazy Dog}
 	\logo{\includegraphics[width=1cm]{resources/uwo-purple.png}}
 	\institute{Insight Lab}
 	\date{\today}
@@ -28,10 +33,51 @@
 	%\setbeamertemplate{navigation symbols}{}
 	\begin{frame}
 	\maketitle
+	\centering\tiny\hyperlink{ahaghig3@uwo.ca}{ahaghig3@uwo.ca}
+\end{frame}
+
+\section*{Overview}
+\begin{frame}
+\frametitle{Agenda}
+\tableofcontents
 \end{frame}
 
 \section{Introduction}
+\subsection{Definition}
 \begin{frame}
-\frametitle{Frame 1}
+\frametitle{The Well-known Problem}
+	\blindlist{itemize}[3]
 \end{frame}
+
+\subsection{Background}
+\begin{frame}
+\frametitle{The Past}
+	\begin{itemize}
+		\item<1->The first
+		\item<2->The second
+		\item<3->The last
+	\end{itemize}
+\end{frame}
+
+\section{Proposal}
+\subsection{Methodology}
+\begin{frame}
+\frametitle{Step 1}
+\framesubtitle{Overall view}
+	\begin{itemize}
+		\item<1->The first
+		\item<2->The second
+		\item<3->The last
+	\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Step 1 (Cont'd)}
+\framesubtitle{Aspects}
+\begin{enumerate}
+	\item<1->The first
+	\item<2->The second
+	\item<3->The last
+\end{enumerate}
+\end{frame}
+
 \end{document}
